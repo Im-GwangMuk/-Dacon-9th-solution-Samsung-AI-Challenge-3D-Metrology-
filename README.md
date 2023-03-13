@@ -40,5 +40,16 @@ The description of the directory and file is as follows.
 └── 삼성 Dacon.pdf 
 ```
 
+To obtain the submission.zip file, run the files in the following order:
+
+Firstly, Execute the **`Classfication.ipynb`** file to check that the Depth files in the train folder and the Depth files in simulation_data are paired.
+
+Secondly, Use **`Segmentation.ipynb`** to find the interface that divides the data border and the inside.
+
+More over, **`Image generation.ipynb`** uses simulation data to create new train data by imitating the matched train.
+
+lastly, **`Combine-OO.ipynb`** uses newly created and existing data to estimate the depth map.
+
+
 ![image](https://user-images.githubusercontent.com/79569224/224713116-1f0b86c7-20c0-4fbb-8312-73f631cf7c20.png)
 
